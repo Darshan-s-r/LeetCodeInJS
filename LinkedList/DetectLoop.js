@@ -27,6 +27,8 @@ class Node{
   }
 }
 
+module.exports = Node;
+
 let head = new Node(3);
 head.next = new Node(5);
 head.next.next = new Node(4);
