@@ -3,7 +3,7 @@ function countPath(grid, memo) {
 }
 
 function helper(grid, i, j, memo) {
-  let key = "" + i + "" + j;
+  let key = i + "-" + j;
 
   if (key in memo) {
     return memo[key];
